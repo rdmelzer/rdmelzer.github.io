@@ -42,6 +42,9 @@ logo:                  /assets/icons/JosephDucraux.jpg
 author:
   name:                Ryan Melzer
   email:               rdmelzer@email.arizona.edu
+  social:
+    github:   rdmelzer
+    instgram: jabba.the.fuck
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 

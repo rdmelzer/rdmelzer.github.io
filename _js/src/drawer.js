@@ -261,7 +261,7 @@ if (!window._noDrawer && hasFeatures(REQUIREMENTS) && !isUCBrowser) {
         "hy-drawer-init",
         () => {
           // Show the icon indicating that the drawer can be drawn using touch gestures.
-          setupIcon();
+          //setupIcon();
 
           // Add a class to incidate that the drawer has been initialized.
           drawerEl.classList.add("loaded");

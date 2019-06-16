@@ -121,7 +121,8 @@ function setupIcon() {
     document.getElementById("_sidebar").appendChild(svg);
   }
   */
-  return;
+  const svg = document.getElementById("_swipe");
+  if (svg) svg.parentNode.removeChild(svg);
 }
 
 function removeIcon() {

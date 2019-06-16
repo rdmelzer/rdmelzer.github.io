@@ -1,4 +1,4 @@
-# About
+# Resume
 
 Under construction
 {:.lead}

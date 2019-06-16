@@ -1,4 +1,4 @@
-# About
+# Blog
 
 Under construction
 {:.lead}

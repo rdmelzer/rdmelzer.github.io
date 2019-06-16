@@ -256,7 +256,7 @@ if (!window._noDrawer && hasFeatures(REQUIREMENTS) && !isUCBrowser) {
 
       // We need the height of the darwer in case we need to reset the scroll position
       const drawerHeight = opened ? null : drawerEl.getBoundingClientRect().height;
-
+      drawerEl.opacity = 0.0
       drawerEl.addEventListener(
         "hy-drawer-init",
         () => {

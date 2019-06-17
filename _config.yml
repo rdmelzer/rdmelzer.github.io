@@ -53,7 +53,7 @@ menu:
   - title:             About
     url:               /about/
   - title:             Resume
-    url:               https://docs.google.com/document/d/1-yi1WEowOsANsHuv30yf-TiUN13k3SZbh23yk5tvta0/edit?usp=sharing
+    url:               /assets/MelzerResume2019.pdf
   - title:             Projects
     url:               /projects/
   - title:             Blog

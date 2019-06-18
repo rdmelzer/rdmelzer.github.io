@@ -1,4 +1,0 @@
-# Resume
-
-Under construction
-{:.lead}

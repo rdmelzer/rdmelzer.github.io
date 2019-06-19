@@ -52,15 +52,15 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Resume
-    url:               /assets/MelzerResume2019.pdf
   - title:             Projects
     url:               /projects/
   - title:             Blog
     url:               /blog/
   - title:             Personal
     url:               /personal/
-
+  - title:             Resume
+    url:               /assets/MelzerResume2019.pdf
+    
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:

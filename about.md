@@ -1,7 +1,4 @@
 ---
-layout: page
-title:  About
+layout: aboutme
+author: author1
 ---
-
-Under construction
-{:.lead}

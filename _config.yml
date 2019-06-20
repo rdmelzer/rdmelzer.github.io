@@ -28,7 +28,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  If you're reading this then fuck you
+  Masters student in Computer Science, AI enthusiast, and musician.
 
 # A list of keywords for your blog
 keywords:              []
@@ -44,7 +44,7 @@ author:
   email:               rdmelzer@email.arizona.edu
   social:
     github:   rdmelzer
-    instgram: jabba.the.fuck
+    instgram: ryan.david.melzer
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -60,7 +60,7 @@ menu:
     url:               /personal/
   - title:             Resume
     url:               /assets/MelzerResume2019.pdf
-    
+
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:

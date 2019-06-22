@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Project page template 
+title: Project Posts Incoming!
 description: >
-  Project summary
+  Project Summary
 author: author
 noindex: false
 ---
 
-Project page template.
+Project pages incoming!

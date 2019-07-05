@@ -54,8 +54,6 @@ menu:
     url:               /about/
   - title:             Research
     url:               /research/
-  - title:             Projects
-    url:               /projects/
   - title:             Personal
     url:               /personal/
   - title:             Resume

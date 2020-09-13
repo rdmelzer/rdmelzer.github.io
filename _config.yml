@@ -53,8 +53,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             About
-    url:               /about/
   - title:             Resume
     url:               /assets/MelzerResume2019.pdf
 #  - title:             Blog

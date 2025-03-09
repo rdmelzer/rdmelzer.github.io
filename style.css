@@ -1,23 +1,95 @@
-a:link {
-  text-decoration: none;
-  font-weight: bold;
+:root {
+  --primary-color: #2d3436;
+  --secondary-color: #0984e3;
+  --background-color: #f5f6fa;
+  --text-color: #2d3436;
+  --transition-speed: 0.3s;
 }
 
 body {
-  margin:40px auto;
-  max-width:650px;
-  line-height:1.6;
-  font-size:18px;
-  color:#444;
-  padding:0 10px;
-  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 18px;
+  color: var(--text-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--background-color);
+  transition: all var(--transition-speed) ease;
 }
 
-h1,h2,h3{
-  line-height:1.2
+h1, h2, h3 {
+  line-height: 1.4;
+  color: var(--primary-color);
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1.5em;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+a:link, a:visited {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: all var(--transition-speed) ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform var(--transition-speed) ease;
 }
 
 p#sig {
-  padding:0 30px;
+  padding: 20px 0;
   font-style: italic;
+  color: var(--primary-color);
+  border-top: 2px solid var(--secondary-color);
+  margin-top: 2em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px 15px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #dfe6e9;
+    --secondary-color: #74b9ff;
+    --background-color: #2d3436;
+    --text-color: #dfe6e9;
+  }
 }
